@@ -81,3 +81,47 @@ p{
     border: 3px dashed black;
     border-radius: 1rem;
 }
+
+@media screen and (min-width: 430px) and (max-width: 800px){
+    .container{
+        margin: 3rem 5rem ;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 425px){
+    .container{
+        margin: 1rem ;
+    }
+
+    .main{
+        
+        padding: 0rem;
+    }
+
+    .title{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .lab{
+        font-size: 1.2rem;
+    }
+
+    .display-para{
+        margin: 0.1rem;
+        padding: 0.5rem;
+    }
+
+    p{
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0;
+        border: 2px dashed black;
+    }
+}
